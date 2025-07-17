@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>eGauge Dashboard</title>
+<link rel="stylesheet" href="styles.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
+</head>
+<body>
+<div id="power-display">
+  <h1>Real-Time Power: <span id="power">0</span> kW</h1>
+  <h2>Average (30s): <span id="average">0</span> kW</h2>
+  <canvas id="power-chart"></canvas>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

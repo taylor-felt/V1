@@ -1,0 +1,17 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f0f2f5;
+  color: #333;
+}
+
+#power-display {
+  padding: 20px;
+  text-align: center;
+}
+
+canvas {
+  max-width: 800px;
+  margin: auto;
+}
